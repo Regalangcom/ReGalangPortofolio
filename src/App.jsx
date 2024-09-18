@@ -80,9 +80,9 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                     <Route path="/openMe" element={<OpenMe />} />
-                    <Route path="/landingPage" element={<ResLandingpage />} />
-                    <Route path="/inputPage" element={<InputPage />} />
-                    <Route path="/residentPage" element={<ResidentPage />} />
+                    <Route path="/test-layout" element={<ResLandingpage />} />
+                    <Route path="/test-layout-form" element={<InputPage />} />
+                    <Route path="/test-select" element={<ResidentPage />} />
 
                     <Route path="*" element={<NotFound />} />
                 </Routes>
