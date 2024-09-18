@@ -16,6 +16,10 @@ const Login = React.lazy(() => import("@eli/components/pages/Login/login.jsx"));
 const Register = React.lazy(() =>
     import("@eli/components/pages/Login/register.jsx")
 );
+const ResLandingpage = React.lazy(() => import("@eli/app/resLandingpage.jsx"));
+const InputPage = React.lazy(() => import("@eli/app/resInput.jsx"));
+const ResidentPage = React.lazy(() => import("@eli/app/deskValueresident.jsx"));
+const OpenMe = React.lazy(() => import("@eli/app/headers.jsx"));
 const NotFound = React.lazy(() =>
     import("@eli/components/NotFound/NotFound.jsx")
 );
@@ -75,6 +79,11 @@ function App() {
                     <Route path="/Seconds-Minutes" element={<Times />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
+                    <Route path="/openMe" element={<OpenMe />} />
+                    <Route path="/landingPage" element={<ResLandingpage />} />
+                    <Route path="/inputPage" element={<InputPage />} />
+                    <Route path="/residentPage" element={<ResidentPage />} />
+
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </React.Suspense>
