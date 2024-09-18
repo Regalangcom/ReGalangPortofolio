@@ -64,7 +64,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
+                                <Link to="/openMe">
                                     Open Me! <LuStore />
                                 </Link>
                             </li>
