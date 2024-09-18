@@ -1,12 +1,12 @@
-import { API } from "../config/ApiClient.js";
+import { API } from "@eli/app/config/ApiClient.js";
 
 export const dProvincies = async () => {
-  const response = await API.get("/provincies");
+  const response = await API.get("/provinces");
   return response.data;
 };
 
-export const dCity = async (id_City) => {
-  const response = await API.get(`/regencies_of/${id_City}`);
+export const dCity = async (Id_provinsi) => {
+  const response = await API.get(`/regencies_of/${Id_provinsi}`);
   return response.data;
 };
 
