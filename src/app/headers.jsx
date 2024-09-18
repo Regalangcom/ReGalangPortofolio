@@ -10,7 +10,7 @@ const Headers = () => {
                 <ul className="space-y-2">
                     <li>
                         <Link
-                            to="/landingpage"
+                            to="/test-layout"
                             className="text-blue-600 hover:text-blue-800 font-semibold transition duration-300"
                         >
                             Landing Page
@@ -18,7 +18,7 @@ const Headers = () => {
                     </li>
                     <li>
                         <Link
-                            to="/inputPage"
+                            to="/test-layout-form"
                             className="text-blue-600 hover:text-blue-800 font-semibold transition duration-300"
                         >
                             Layout 2
@@ -26,7 +26,7 @@ const Headers = () => {
                     </li>
                     <li>
                         <Link
-                            to="/residentPage"
+                            to="/test-select"
                             className="text-blue-600 hover:text-blue-800 font-semibold transition duration-300"
                         >
                             Layout 3
