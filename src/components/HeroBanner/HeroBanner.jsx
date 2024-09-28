@@ -74,15 +74,21 @@ const HeroBanner = () => {
                          </p> */}
                     <div className="mb-6 mt-3  flex m-5 space-x-2 text-sm ">
                         <button className="rounded-lg px-4 py-1 bg-slate-900 text-white flex items-center hover:bg-slate-600">
-                            <a href="">connect</a>
+                            <a href="www.linkedin.com/in/muhammad-galang-miftah-riziq">
+                                connect
+                            </a>
                             <BsLinkedin className="ml-2" />
                         </button>
                         <button className="rounded-lg px-4  py-1 bg-slate-900 text-white flex items-center hover:bg-slate-600">
-                            Medium
+                            <a href="https://medium.com/@galangmiftah03">
+                                Medium
+                            </a>
                             <AiFillMediumCircle className="ml-2" />
                         </button>
                         <button className="rounded-lg px-4 py-1 bg-slate-900 text-white flex items-center hover:bg-slate-600">
-                            Github
+                            <a href="https://github.com/Regalangcom?tab=repositories">
+                                Github
+                            </a>
                             <BsGithub className="ml-2" />
                         </button>
                     </div>

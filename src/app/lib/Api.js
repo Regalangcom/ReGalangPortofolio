@@ -1,6 +1,11 @@
 import { API } from "@eli/app/config/ApiClient.js";
 export const dProvincies = async () => {
-  const response = await API.get("provinces", { withCredentials: false });
+  const response = await API.get("/provinces", {
+    headers: {
+      Authorization: "",
+    },
+    withCredentials: false,
+  });
   return response.data;
 };
 
