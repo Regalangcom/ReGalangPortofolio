@@ -1,7 +1,7 @@
 import ImageAbout from "../../assets/assetPortofolio/ImageAbout.jpeg";
 const About = () => {
     return (
-        <div name="About" className="md:h-screen lg:h-[800px] lg:mb-40">
+        <div name="About" className="md:h-screen lg:h-[800px] lg:mb-80 ">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-start h-full px-4 md:flex-row gap-7  ">
                 <div>
                     <img
