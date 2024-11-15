@@ -81,6 +81,7 @@ const Portofolio = () => {
                                         <img
                                             src={src}
                                             alt={`project ${id}`}
+                                            loading="lazy"
                                             className="rounded-md w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-105"
                                         />
                                         {/* Overlay for Project Text */}
